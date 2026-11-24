@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background linear gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a10" />
+    </linearGradient>
+
+    <!-- Glowing accent gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(30, 41, 59, 0.7)" />
+      <stop offset="100%" stop-color="rgba(15, 23, 42, 0.7)" />
+    </linearGradient>
+
+    <!-- Radial glowing orbs -->
+    <radialGradient id="orbGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orbGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+
+    <!-- Filter for glow -->
+    <filter id="glowEffect" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.6; }
+      50% { transform: scale(1.15) translate(20px, -15px); opacity: 0.85; }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes pulseBeam {
+      0%, 100% { stroke-dashoffset: 0; opacity: 0.4; }
+      50% { stroke-dashoffset: 40; opacity: 0.8; }
+    }
+    @keyframes dataPulse {
+      0%, 100% { r: 3px; opacity: 0.4; }
+      50% { r: 5px; opacity: 1; }
+    }
+    .orb-anim-1 {
+      animation: pulseOrb 8s ease-in-out infinite alternate;
+      transform-origin: 200px 100px;
+    }
+    .orb-anim-2 {
+      animation: pulseOrb 10s ease-in-out infinite alternate;
+      transform-origin: 1000px 300px;
+    }
+    .pill-1 { animation: floatPill 6s ease-in-out infinite; }
+    .pill-2 { animation: floatPill 7s ease-in-out infinite 1s; }
+    .pill-3 { animation: floatPill 5.5s ease-in-out infinite 0.5s; }
+    .pill-4 { animation: floatPill 6.5s ease-in-out infinite 1.5s; }
+    .flow-line {
+      stroke-dasharray: 6 6;
+      animation: pulseBeam 4s linear infinite;
+    }
+    .node-dot {
+      animation: dataPulse 3s ease-in-out infinite;
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+    }
+  </style>
+
+  <!-- Deep background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+
+  <!-- Grid overlay -->
+  <rect width="1200" height="420" fill="url(#cyberGrid)" />
+
+  <!-- Animated Glowing Orbs in background -->
+  <circle class="orb-anim-1" cx="220" cy="120" r="240" fill="url(#orbGlow1)" />
+  <circle class="orb-anim-2" cx="980" cy="280" r="260" fill="url(#orbGlow2)" />
+
+  <!-- Background Connecting Flow Lines & Architecture Nodes -->
+  <g opacity="0.6">
+    <path class="flow-line" d="M 120 330 Q 320 350 480 330 T 800 330 T 1080 330" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <path class="flow-line" d="M 160 80 Q 400 40 600 80 T 1040 80" fill="none" stroke="#a855f7" stroke-width="1.5" />
+    
+    <!-- Microservice Nodes -->
+    <circle class="node-dot" cx="280" cy="335" r="4" fill="#38bdf8" />
+    <circle class="node-dot" cx="600" cy="330" r="4" fill="#818cf8" />
+    <circle class="node-dot" cx="920" cy="332" r="4" fill="#c084fc" />
+    <circle class="node-dot" cx="380" cy="65" r="4" fill="#38bdf8" />
+    <circle class="node-dot" cx="820" cy="75" r="4" fill="#a855f7" />
+  </g>
+
+  <!-- Central Glass Card (Foreground Container) -->
+  <rect x="70" y="45" width="1060" height="330" rx="16" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.5" filter="drop-shadow(0 20px 30px rgba(0,0,0,0.5))" />
+
+  <!-- Foreground Title and Content (Strictly in foreground) -->
+  <g id="foreground-content">
+    <!-- Top Category Badge -->
+    <g transform="translate(470, 75)">
+      <rect x="0" y="0" width="260" height="30" rx="15" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1" />
+      <circle cx="15" cy="15" r="4" fill="#38bdf8" />
+      <text x="30" y="20" fill="#38bdf8" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" letter-spacing="1">INTERNAL DEVELOPER PORTALS</text>
+    </g>
+
+    <!-- Main Title -->
+    <text class="title-text" x="600" y="150" text-anchor="middle" fill="url(#textGrad)" font-size="38" filter="url(#glowEffect)">
+      Awesome Developer Portals &amp; Platforms
+    </text>
+    <text class="title-text" x="600" y="150" text-anchor="middle" fill="#ffffff" font-size="38">
+      Awesome Developer Portals &amp; Platforms
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text class="subtitle-text" x="600" y="190" text-anchor="middle" fill="#94a3b8" font-size="16" letter-spacing="0.2">
+      Curated Catalog of IDPs, Service Catalogs, Golden Paths, Microservices &amp; Platform Engineering Tools
+    </text>
+
+    <!-- Interactive Floating Feature Pills (Below text, non-obtrusive) -->
+    <g transform="translate(140, 240)">
+      <!-- Pill 1: Software Catalog -->
+      <g class="pill-1" transform="translate(0, 0)">
+        <rect width="200" height="44" rx="22" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+        <text x="26" y="27" font-size="15">📋</text>
+        <text x="54" y="27" fill="#e2e8f0" font-size="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500">Service Catalogs</text>
+      </g>
+
+      <!-- Pill 2: Golden Paths -->
+      <g class="pill-2" transform="translate(240, 0)">
+        <rect width="200" height="44" rx="22" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(129, 140, 248, 0.4)" stroke-width="1" />
+        <text x="26" y="27" font-size="15">🚀</text>
+        <text x="54" y="27" fill="#e2e8f0" font-size="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500">Golden Paths</text>
+      </g>
+
+      <!-- Pill 3: Scorecards -->
+      <g class="pill-3" transform="translate(480, 0)">
+        <rect width="200" height="44" rx="22" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(192, 132, 252, 0.4)" stroke-width="1" />
+        <text x="26" y="27" font-size="15">📊</text>
+        <text x="54" y="27" fill="#e2e8f0" font-size="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500">Maturity Scorecards</text>
+      </g>
+
+      <!-- Pill 4: Orchestrators -->
+      <g class="pill-4" transform="translate(720, 0)">
+        <rect width="200" height="44" rx="22" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(244, 114, 182, 0.4)" stroke-width="1" />
+        <text x="26" y="27" font-size="15">⚙️</text>
+        <text x="54" y="27" fill="#e2e8f0" font-size="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500">Self-Service GitOps</text>
+      </g>
+    </g>
+
+    <!-- Bottom Footer Metrics inside Card -->
+    <g transform="translate(0, 335)">
+      <text x="600" y="0" text-anchor="middle" fill="#64748b" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+        ✨ Open Source Ecosystem &amp; Enterprise SaaS Comparisons • Continuously Updated
+      </text>
+    </g>
+  </g>
+</svg>
