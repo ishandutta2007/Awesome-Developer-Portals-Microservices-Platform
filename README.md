@@ -1,255 +1,159 @@
-# Awesome-Developer-Portals-Microservices-Platform
+# Awesome Developer Portals & Microservices Platforms
 
-markdown
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Developer-Portals-Microservices-Platform)
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Developer-Portals-Microservices-Platform?style=flat-square)](https://github.com/ishandutta2007/Awesome-Developer-Portals-Microservices-Platform/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Developer-Portals-Microservices-Platform?style=flat-square)](https://github.com/ishandutta2007/Awesome-Developer-Portals-Microservices-Platform/network)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Top Developer Portals & Microservices Platform Ecosystem
+> A curated list of top **Internal Developer Portals (IDPs)**, **Microservices Platforms**, **Software Service Catalogs**, **Golden Path Scaffolding Tools**, **Production Readiness Scorecards**, and **Platform Engineering Orchestrators**.
 
+---
 
+## What is an Internal Developer Portal (IDP)?
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+An **Internal Developer Portal (IDP)** serves as the single pane of glass for engineering teams navigating modern cloud-native and microservice architectures. Key capabilities include:
 
-*Focused on Internal Developer Portals (IDPs), Service Catalogs, Golden Paths, Platform Engineering Orchestrators & Microservices Governance*  
+- 📋 **Software Service Catalog:** Centralize microservice ownership, API specifications (OpenAPI/AsyncAPI/gRPC), technical documentation (Docs-like-Code/TechDocs), and runtime dependencies.
+- 🚀 **Golden Paths & Self-Service Scaffolding:** Empower developers to scaffold production-ready services and cloud resources adhering to organizational security and architecture standards.
+- 📊 **Maturity & Readiness Scorecards:** Track production readiness, security compliance (SOC2/ISO), SLOs/DORA metrics, code quality, and operational health.
+- ⚙️ **Platform Orchestration & Cloud Automation:** Coordinate underlying infrastructure-as-code, GitOps pipelines (Argo CD, Flux), and cloud environments seamlessly.
 
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Developer Portals & Microservices Platforms**. These tools centralize service catalogs, scaffold golden-path templates, track microservice ownership and production readiness scorecards, and orchestrate self-service cloud infrastructure across platform engineering and DevOps teams.
-
-
-
-**Examples** include Backstage by Spotify, Port, Cortex.io, Configure8, Atlassian Compass, OpsLevel, Rely.io, DX Platform, Roadie Backstage, Harness Internal Developer Portal, and kdlbs/kandev (the category leaders and popular runtimes). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for Internal Developer Portals (`Backstage`, `Red Hat Developer Hub / Janus IDP`, `kdlbs/kandev`), platform engineering & application delivery orchestrators (`KubeVela`, `Kratix`, `Crossplane`, `Score`, `Radius`), and microservice runtimes & GitOps engines (`Dapr`, `Argo CD`, `Porter`) — ideal for platform engineers, SREs, enterprise architects, and DevOps teams.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
+- [SaaS & Hosted Developer Portals](#saas--hosted-developer-portals)
+- [Open-Source Developer Portals & Frameworks](#open-source-developer-portals--frameworks)
+- [Platform Orchestration & Infrastructure-as-a-Service](#platform-orchestration--infrastructure-as-a-service)
+- [Microservice Runtimes & GitOps Delivery](#microservice-runtimes--gitops-delivery)
+- [Architecture Blueprint & Recommended Stack](#architecture-blueprint--recommended-stack)
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+---
 
+## SaaS & Hosted Developer Portals
 
-## SaaS/Hosted Platforms
+Curated managed IDPs and SaaS developer experience platforms.
 
+| Platform | Description | Pricing Model | Free Tier & Limits |
+| :--- | :--- | :--- | :--- |
+| **[Port](https://getport.io)** | No-code/low-code customizable Internal Developer Portal with software catalog, self-service developer actions, scorecards, and live GitOps integrations. | Freemium / Paid per active user | **Free tier available**: up to 15 users, 1 data source, core catalog & scorecards. |
+| **[Cortex.io](https://cortex.io)** | Enterprise IDP focused on microservice catalogs, automated production-readiness scorecards, incident tracking, and engineering maturity initiatives. | Paid / Enterprise subscription | **Free trial available** on request; custom quote per developer/service. |
+| **[Atlassian Compass](https://atlassian.com/software/compass)** | Distributed architecture management platform unifying component catalogs, health scorecards, DevOps metrics, and Jira/Bitbucket workflows. | Freemium / Paid per full user | **Free tier available**: up to 30,000 components, basic scorecards, unlimited basic users. |
+| **[OpsLevel](https://opslevel.com)** | Microservice catalog and developer portal designed to automate service maturity checks, assign code ownership, and provide self-service templates. | Paid / Tiered per service/user | **Free trial available** (14-day full feature trial); paid plans scale per developer. |
+| **[Roadie Backstage](https://roadie.io)** | Fully managed, zero-maintenance SaaS hosting for Spotify Backstage offering enterprise RBAC, SOC2 compliance, and pre-configured plugins. | Paid / Per seat subscription | **Free trial available** (14 days); custom growth & enterprise plans. |
+| **[Harness IDP](https://harness.io/products/internal-developer-portal)** | Backstage-powered cloud developer portal deeply integrated with Harness CI/CD pipelines, feature flags, cloud cost management, and golden paths. | Paid / Tiered per developer seat | **Free trial available** with Harness platform credits. |
+| **[Rely.io](https://rely.io)** | AI-native Internal Developer Portal and software catalog automating service discovery, DORA metrics, reliability scorecards, and developer workflows. | Freemium / Paid per seat | **Free tier available**: up to 10 users with core catalog, integrations, and basic scorecards. |
+| **[DX Platform](https://getdx.com)** | Developer experience and engineering intelligence platform combining qualitative developer surveys with system telemetry and catalog insights. | Paid / Enterprise subscription | **Demo / Trial upon request**; custom enterprise pricing per seat. |
+| **[Configure8](https://configure8.io)** | Universal Internal Developer Portal aggregating cloud resources, Kubernetes clusters, CI/CD pipelines, and microservice dependencies into unified scorecards. | Freemium / Paid | **Free tier available**: up to 20 users and standard cloud integrations. |
+| **[Spotify Portal for Backstage](https://spotify.com)** | Commercial enterprise SaaS offering from the creators of Backstage providing turnkey cloud hosting, enterprise support, and exclusive Spotify plugins. | Enterprise subscription | **Enterprise quote only**; custom demo available upon request. |
 
+---
 
-- **[Port](https://getport.io)**  
+## Open-Source Developer Portals & Frameworks
 
-  No-code/low-code Internal Developer Portal platform featuring a customizable software catalog, self-service developer actions, engineering scorecards, and real-time GitOps/CI integrations.
+Open-source frameworks to build, customize, and self-host developer portals.
 
-
-
-- **[Cortex.io](https://cortex.io)**  
-
-  Enterprise Internal Developer Portal focused on microservice catalogs, automated production-readiness scorecards, incident tracking, and engineering excellence initiatives.
-
-
-
-- **[Atlassian Compass](https://atlassian.com)**  
-
-  Developer experience and distributed architecture platform uniting microservice component catalogs, health scorecards, DevOps metrics, and Jira/Bitbucket workflows.
-
-
-
-- **[OpsLevel](https://opslevel.com)**  
-
-  Service catalog and Internal Developer Portal designed to track microservice ownership, automate maturity checks, and provide self-service developer scaffolding templates.
-
-
-
-- **[Roadie Backstage](https://roadie.io)**  
-
-  Fully managed, zero-maintenance SaaS hosting for Spotify's Backstage offering enterprise RBAC, SOC2 compliance, and pre-built plugin integrations out of the box.
-
-
-
-- **[Harness Internal Developer Portal](https://harness.io)**  
-
-  Backstage-powered cloud developer portal deeply integrated with Harness CI/CD, feature flags, cloud cost management, and self-service golden paths.
-
-
-
-- **[Rely.io](https://rely.io)**  
-
-  AI-powered Internal Developer Portal and software catalog automating service discovery, DORA/reliability scorecards, and developer self-service workflows.
-
-
-
-- **[DX Platform (GetDX)](https://getdx.com)**  
-
-  Developer experience and engineering intelligence platform combining qualitative developer surveys with quantitative system telemetry and service catalog insights.
-
-
-
-- **[Configure8](https://configure8.io)**  
-
-  Universal Internal Developer Portal aggregating cloud resources, Kubernetes clusters, CI/CD pipelines, and microservice dependencies into unified service scorecards.
-
-
-
-- **[Spotify Portal for Backstage](https://spotify.com)**  
-
-  Commercial managed SaaS offering from the creators of Backstage providing turnkey cloud hosting, enterprise plugins, and simplified portal administration.
-
-
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[kdlbs/kandev](https://github.com)**  
-
+- **[Backstage by Spotify (`backstage/backstage`)](https://github.com/backstage/backstage)**  
+  Flagship CNCF incubating open-source framework for building customizable Internal Developer Portals. Features an extensible Software Catalog, Software Templates (Scaffolder), TechDocs (Markdown docs-like-code), and an extensive ecosystem of community plugins.
+- **[Red Hat Developer Hub / Janus IDP (`janus-idp/backstage-showcase`)](https://github.com/janus-idp/backstage-showcase)**  
+  Enterprise-ready open-source Backstage distribution maintained by Red Hat and the Janus community. Offers dynamic runtime plugin loading, pre-integrated Keycloak RBAC, and Kubernetes/OpenShift/Argo CD modules.
+- **[kdlbs/kandev (`kdlbs/kandev`)](https://github.com/kdlbs/kandev)**  
   Open-source developer portal and microservices platform toolkit engineered to streamline service organization, developer self-service, and modern platform workflows.
+- **[Port Ocean (`port-labs/ocean`)](https://github.com/port-labs/ocean)**  
+  Open-source extensible integration framework built in Python for ingesting real-time metadata from Kubernetes, GitHub, GitLab, PagerDuty, Jira, and cloud providers into developer portals.
 
+---
 
+## Platform Orchestration & Infrastructure-as-a-Service
 
-- **[Backstage by Spotify (`backstage/backstage`)](https://github.com)**  
+Engines enabling platform teams to compose golden paths and expose self-service cloud APIs.
 
-  Flagship CNCF open-source framework for building Internal Developer Portals—featuring a centralized Software Catalog, Software Templates (Golden Paths), TechDocs, and hundreds of community plugins.
-
-
-
-- **[Red Hat Developer Hub / Janus IDP (`janus-idp/backstage-showcase`)](https://github.com)**  
-
-  Enterprise-ready open-source Backstage distribution maintained by Red Hat and the Janus community with dynamic plugin loading, Keycloak RBAC, and Kubernetes/Argo CD plugins.
-
-
-
-- **[KubeVela (`kubevela/kubevela`)](https://github.com)**  
-
-  Modern CNCF open-source application delivery and platform engineering engine built on the Open Application Model (OAM) for deploying microservices across hybrid and multi-cloud clusters.
-
-
-
-- **[Crossplane (`crossplane/crossplane`)](https://github.com)**  
-
-  Industry-standard CNCF open-source control-plane framework turning Kubernetes into a universal cloud API so platform teams can expose self-service infrastructure abstractions.
-
-
-
-- **[Kratix (`syntasso/kratix`)](https://github.com)**  
-
+- **[Crossplane (`crossplane/crossplane`)](https://github.com/crossplane/crossplane)**  
+  CNCF open-source control-plane framework turning Kubernetes into a universal cloud API. Enables platform teams to model composite cloud infrastructure abstractions for developer self-service.
+- **[KubeVela (`kubevela/kubevela`)](https://github.com/kubevela/kubevela)**  
+  CNCF open-source application delivery and platform orchestration engine built on the Open Application Model (OAM) for deploying multi-cloud microservice workloads.
+- **[Kratix (`syntasso/kratix`)](https://github.com/syntasso/kratix)**  
   Open-source platform engineering framework enabling teams to compose, curate, and deliver as-a-Service APIs ("Promises") across multi-cluster Kubernetes environments.
+- **[Score (`score-spec/spec`)](https://github.com/score-spec/spec)**  
+  Open-source developer-centric workload specification (`score.yaml`) allowing developers to define service requirements once and run them identically on local Docker Compose or remote Kubernetes clusters.
+- **[Radius (`radius-project/radius`)](https://github.com/radius-project/radius)**  
+  Open-source cloud-native application platform from Microsoft enabling developers and platform teams to collaborate on microservice definitions, connections, and environment recipes.
+- **[Porter (`porter-dev/porter`)](https://github.com/porter-dev/porter)** & **[Qovery Engine (`Qovery/engine`)](https://github.com/Qovery/engine)**  
+  Open-source PaaS layers that transform your AWS, GCP, or Azure Kubernetes infrastructure into a self-service Heroku-like platform experience.
+- **[OpenTofu (`opentofu/opentofu`)](https://github.com/opentofu/opentofu)** & **[Terragrunt](https://github.com/gruntwork-io/terragrunt)**  
+  Open-source Infrastructure-as-Code engines powering golden-path infrastructure provisioning behind developer portal templates.
 
+---
 
+## Microservice Runtimes & GitOps Delivery
 
-- **[Score (`score-spec/spec`)](https://github.com)**  
+Core runtimes, service mesh backbones, and continuous delivery pipelines.
 
-  Open-source, platform-agnostic developer-centric workload specification (`score.yaml`) allowing developers to define microservice requirements once and run them identically on Docker Compose or Kubernetes.
+- **[Argo CD (`argoproj/argo-cd`)](https://github.com/argoproj/argo-cd)**  
+  Declarative, GitOps continuous delivery engine for Kubernetes widely embedded inside Internal Developer Portals for live microservice synchronization and self-service rollouts.
+- **[Dapr (`dapr/dapr`)](https://github.com/dapr/dapr)**  
+  Distributed Application Runtime providing portable, event-driven microservice building blocks—service-to-service invocation, pub/sub, state store, and distributed locking—via sidecar APIs.
+- **[Istio (`istio/istio`)](https://github.com/istio/istio)** & **[Linkerd (`linkerd/linkerd2`)](https://github.com/linkerd/linkerd2)**  
+  Industry-standard open-source service meshes providing zero-trust mTLS, dynamic traffic management, and telemetry graphs across microservices architectures.
+- **[KubeSphere (`kubesphere/kubesphere`)](https://github.com/kubesphere/kubesphere)**  
+  Distributed open-source container management platform featuring a multi-tenant developer console, automated CI/CD pipelines, and integrated service mesh observability.
+- **[Copier (`copier-org/copier`)](https://github.com/copier-org/copier)**  
+  Library and CLI for rendering microservice project templates with support for lifecycle updates alongside Backstage Scaffolder.
 
+---
 
+## Architecture Blueprint & Recommended Stack
 
-- **[Dapr (`dapr/dapr`)](https://github.com)**  
+```
+               ┌─────────────────────────────────────────────────────────────┐
+               │              Internal Developer Portal (IDP)                │
+               │  (Backstage / Port / Atlassian Compass / Cortex / Janus)    │
+               │  • Software Catalog   • Scorecards   • TechDocs   • Actions  │
+               └──────────────────────────────┬──────────────────────────────┘
+                                              │ Golden Path Triggers
+                                              ▼
+               ┌─────────────────────────────────────────────────────────────┐
+               │             Platform Engineering Orchestration              │
+               │          (Crossplane / Kratix / KubeVela / Score)           │
+               └──────────────┬──────────────────────────────┬───────────────┘
+                              │ Infrastructure API           │ Manifests
+                              ▼                              ▼
+               ┌──────────────────────────────┐ ┌────────────────────────────┐
+               │    Cloud / IaC Resources     │ │  GitOps Delivery (Argo CD) │
+               │ (AWS, GCP, Azure, OpenTofu)  │ │   & Microservice Runtime   │
+               │                              │ │       (Dapr, Istio)        │
+               └──────────────────────────────┘ └────────────────────────────┘
+```
 
-  Portable, event-driven CNCF open-source runtime providing microservice building blocks—service-to-service invocation, state management, pub/sub, and secrets—via sidecar APIs.
-
-
-
-- **[Argo CD (`argoproj/argo-cd`)](https://github.com)**  
-
-  Declarative, GitOps continuous delivery engine for Kubernetes widely embedded inside Internal Developer Portals for live microservice sync status and self-service rollouts.
-
-
-
-- **[Radius (`radius-project/radius`)](https://github.com)**  
-
-  Cloud-native, open-source application platform from Microsoft enabling developers and platform engineers to define, deploy, and connect microservices and cloud dependencies together.
-
-
-
-- **[Port Ocean (`port-labs/ocean`)](https://github.com)**  
-
-  Open-source extensible integration framework by Port built in Python for ingesting real-time data from Kubernetes, GitHub, GitLab, PagerDuty, Jira, and AWS into developer portals.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Porter (`porter-dev/porter`)](https://github.com)** and **[Qovery Engine (`Qovery/engine`)](https://github.com)** for open-source PaaS layers turning your own AWS, GCP, or Azure Kubernetes clusters into Heroku-like self-service developer platforms.
-
-- **[KubeSphere (`kubesphere/kubesphere`)](https://github.com)** for a distributed open-source container platform featuring a multi-tenant developer portal, DevOps pipelines, and Istio service mesh observability.
-
-- **[Cycloid / Terragrunt & OpenTofu (`opentofu/opentofu`)](https://github.com)** for open-source Infrastructure-as-Code engines powering golden-path self-service provisioning behind Backstage templates.
-
-- **[Istio (`istio/istio`)](https://github.com)** and **[Linkerd (`linkerd/linkerd2`)](https://github.com)** for open-source service meshes providing zero-trust mTLS, traffic routing, and service dependency topology graphs for microservices platforms.
-
-- **[Cookbook / Copier (`copier-org/copier`)](https://github.com)** for deterministic microservice scaffolding templates with upstream lifecycle updates alongside Backstage Scaffolder.
-
-
-
-**Frameworks for building custom systems**: Combine **Backstage** or **kdlbs/kandev** for the unified developer portal and service catalog, **Crossplane + KubeVela** for self-service infrastructure provisioning, and **Dapr + Argo CD** for portable microservices runtime and GitOps delivery.
-
-
+---
 
 ## How to Contribute
 
+Contributions from platform engineers, SREs, and open-source maintainers are welcome!
 
+1. **Fork** this repository.
+2. Add your project or platform to the appropriate section in `README.md`:
+   - Follow the established formatting (include links, GitHub repo name if open-source, and concise description).
+   - If adding a SaaS product, include its pricing model and free tier limits in the SaaS table.
+3. Verify formatting and links.
+4. **Submit a Pull Request** with a descriptive summary of your changes.
 
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
+---
 
 ## Support & Share
 
+If you find this curated collection useful for your team or organization:
 
+- ⭐ **Star this repository** on GitHub.
+- 🍴 **Fork & share** with platform engineering and DevOps communities on LinkedIn, X/Twitter, and Reddit.
+- ☕ **Sponsor**: Support open-source curation on [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
 
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
+---
 
 ## Disclaimer
 
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Internal Developer Portals (`Backstage`, `Crossplane`, `Argo CD`) centralize access to production deployment pipelines and cloud credentials; always enforce strict RBAC, OIDC/SSO authentication, least-privilege IAM roles, and audit logging.
-
-Use code with caution.
-
-• Standing up a full self-hosted Backstage instance requires dedicated frontend/backend engineering maintenance; smaller teams may prefer lightweight orchestrators (Score, KubeVela, Porter) before scaling to a full portal.
-
-Made for platform engineers, SREs, microservice architects, DevOps teams, and open-source contributors.
-
-Let's make developer portals and microservices platforms more open, self-service, and developer-friendly.
+- This list is community-curated for informational purposes and does not constitute formal endorsement.
+- Developer portals and platform orchestrators interface directly with cloud credentials and production deployment pipelines; always enforce robust RBAC, OIDC/SSO authentication, least-privilege IAM policies, and audit logging.
