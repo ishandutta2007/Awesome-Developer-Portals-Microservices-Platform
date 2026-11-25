@@ -6,7 +6,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-thebbadge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Developer-Portals-Microservices-Platform?style=flat-square)](https://github.com/ishandutta2007/Awesome-Developer-Portals-Microservices-Platform/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Developer-Portals-Microservices-Platform?style=flat-square)](https://github.com/ishandutta2007/Awesome-Developer-Portals-Microservices-Platform/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Developer-Portals-Microservices-Platform?style=flat-square)](https://github.com/ishandutta2007/Awesome-Developer-Portals-Microservices-Platform/network)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -73,63 +73,63 @@ Curated managed IDPs and commercial developer experience platforms, sorted desce
 
 ## 🔓 Open-Source Developer Portals & Frameworks
 
-Open-source frameworks to build, customize, and self-host developer portals, sorted descending by GitHub star count.
+Open-source frameworks to build, customize, and self-host developer portals, sorted descending by GitHub Stars_Count.
 
-- **[Backstage by Spotify (`backstage/backstage`)](https://github.com/backstage/backstage)** [![GitHub stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)  
+- **[Backstage by Spotify (`backstage/backstage`)](https://github.com/backstage/backstage)** [![GitHub_Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)  
   Flagship CNCF incubating open-source framework for building customizable Internal Developer Portals. Features an extensible Software Catalog, Software Templates (Scaffolder), TechDocs (Markdown docs-like-code), and an extensive ecosystem of community plugins.
-- **[Red Hat Developer Hub / Janus IDP (`janus-idp/backstage-showcase`)](https://github.com/janus-idp/backstage-showcase)** [![GitHub stars](https://img.shields.io/github/stars/janus-idp/backstage-showcase?style=social&color=white)](https://github.com/janus-idp/backstage-showcase/stargazers)  
+- **[Red Hat Developer Hub / Janus IDP (`janus-idp/backstage-showcase`)](https://github.com/janus-idp/backstage-showcase)** [![GitHub_Stars](https://img.shields.io/github/stars/janus-idp/backstage-showcase?style=social&color=white)](https://github.com/janus-idp/backstage-showcase/stargazers)  
   Enterprise-ready open-source Backstage distribution maintained by Red Hat and the Janus community. Offers dynamic runtime plugin loading, pre-integrated Keycloak RBAC, and Kubernetes/OpenShift/Argo CD modules.
-- **[kdlbs/kandev (`kdlbs/kandev`)](https://github.com/kdlbs/kandev)** [![GitHub stars](https://img.shields.io/github/stars/kdlbs/kandev?style=social&color=white)](https://github.com/kdlbs/kandev/stargazers)  
+- **[kdlbs/kandev (`kdlbs/kandev`)](https://github.com/kdlbs/kandev)** [![GitHub_Stars](https://img.shields.io/github/stars/kdlbs/kandev?style=social&color=white)](https://github.com/kdlbs/kandev/stargazers)  
   Open-source developer portal and microservices platform toolkit engineered to streamline service organization, developer self-service, and modern platform workflows.
-- **[Port Ocean (`port-labs/ocean`)](https://github.com/port-labs/ocean)** [![GitHub stars](https://img.shields.io/github/stars/port-labs/ocean?style=social&color=white)](https://github.com/port-labs/ocean/stargazers)  
+- **[Port Ocean (`port-labs/ocean`)](https://github.com/port-labs/ocean)** [![GitHub_Stars](https://img.shields.io/github/stars/port-labs/ocean?style=social&color=white)](https://github.com/port-labs/ocean/stargazers)  
   Open-source extensible integration framework built in Python for ingesting real-time metadata from Kubernetes, GitHub, GitLab, PagerDuty, Jira, and cloud providers into developer portals.
 
 ---
 
 ## ⚙️ Platform Orchestration & Infrastructure-as-a-Service
 
-Engines and specifications enabling platform teams to compose golden paths and expose self-service cloud APIs, sorted descending by GitHub star count.
+Engines and specifications enabling platform teams to compose golden paths and expose self-service cloud APIs, sorted descending by GitHub Stars_Count.
 
-- **[OpenTofu (`opentofu/opentofu`)](https://github.com/opentofu/opentofu)** [![GitHub stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)  
+- **[OpenTofu (`opentofu/opentofu`)](https://github.com/opentofu/opentofu)** [![GitHub_Stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)  
   Open-source, community-driven fork of Terraform governed by the Linux Foundation, serving as the declarative Infrastructure-as-Code engine powering self-service platform provisioning.
-- **[Crossplane (`crossplane/crossplane`)](https://github.com/crossplane/crossplane)** [![GitHub stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social&color=white)](https://github.com/crossplane/crossplane/stargazers)  
+- **[Crossplane (`crossplane/crossplane`)](https://github.com/crossplane/crossplane)** [![GitHub_Stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social&color=white)](https://github.com/crossplane/crossplane/stargazers)  
   CNCF open-source control-plane framework turning Kubernetes into a universal cloud API. Enables platform teams to model composite cloud infrastructure abstractions for developer self-service.
-- **[vcluster (`loft-sh/vcluster`)](https://github.com/loft-sh/vcluster)** [![GitHub stars](https://img.shields.io/github/stars/loft-sh/vcluster?style=social&color=white)](https://github.com/loft-sh/vcluster/stargazers)  
+- **[vcluster (`loft-sh/vcluster`)](https://github.com/loft-sh/vcluster)** [![GitHub_Stars](https://img.shields.io/github/stars/loft-sh/vcluster?style=social&color=white)](https://github.com/loft-sh/vcluster/stargazers)  
   Lightweight, fully functional virtual Kubernetes clusters running inside host namespaces, providing isolated, cost-effective self-service sandbox environments for developer platforms.
-- **[Terragrunt (`gruntwork-io/terragrunt`)](https://github.com/gruntwork-io/terragrunt)** [![GitHub stars](https://img.shields.io/github/stars/gruntwork-io/terragrunt?style=social&color=white)](https://github.com/gruntwork-io/terragrunt/stargazers)  
+- **[Terragrunt (`gruntwork-io/terragrunt`)](https://github.com/gruntwork-io/terragrunt)** [![GitHub_Stars](https://img.shields.io/github/stars/gruntwork-io/terragrunt?style=social&color=white)](https://github.com/gruntwork-io/terragrunt/stargazers)  
   Thin wrapper for OpenTofu/Terraform providing extra tools for keeping configurations DRY, working with multiple modules, and orchestrating self-service cloud infrastructure pipelines.
-- **[Score (`score-spec/spec`)](https://github.com/score-spec/spec)** [![GitHub stars](https://img.shields.io/github/stars/score-spec/spec?style=social&color=white)](https://github.com/score-spec/spec/stargazers)  
+- **[Score (`score-spec/spec`)](https://github.com/score-spec/spec)** [![GitHub_Stars](https://img.shields.io/github/stars/score-spec/spec?style=social&color=white)](https://github.com/score-spec/spec/stargazers)  
   Open-source developer-centric workload specification (`score.yaml`) allowing developers to define service requirements once and run them identically across local Docker Compose or Kubernetes clusters.
-- **[KubeVela (`kubevela/kubevela`)](https://github.com/kubevela/kubevela)** [![GitHub stars](https://img.shields.io/github/stars/kubevela/kubevela?style=social&color=white)](https://github.com/kubevela/kubevela/stargazers)  
+- **[KubeVela (`kubevela/kubevela`)](https://github.com/kubevela/kubevela)** [![GitHub_Stars](https://img.shields.io/github/stars/kubevela/kubevela?style=social&color=white)](https://github.com/kubevela/kubevela/stargazers)  
   CNCF open-source application delivery and platform orchestration engine built on the Open Application Model (OAM) for deploying multi-cloud microservice workloads.
-- **[Copier (`copier-org/copier`)](https://github.com/copier-org/copier)** [![GitHub stars](https://img.shields.io/github/stars/copier-org/copier?style=social&color=white)](https://github.com/copier-org/copier/stargazers)  
+- **[Copier (`copier-org/copier`)](https://github.com/copier-org/copier)** [![GitHub_Stars](https://img.shields.io/github/stars/copier-org/copier?style=social&color=white)](https://github.com/copier-org/copier/stargazers)  
   Library and CLI for rendering deterministic microservice templates with support for upstream lifecycle updates alongside Backstage Scaffolder.
-- **[Qovery Engine (`Qovery/engine`)](https://github.com/Qovery/engine)** [![GitHub stars](https://img.shields.io/github/stars/Qovery/engine?style=social&color=white)](https://github.com/Qovery/engine/stargazers)  
+- **[Qovery Engine (`Qovery/engine`)](https://github.com/Qovery/engine)** [![GitHub_Stars](https://img.shields.io/github/stars/Qovery/engine?style=social&color=white)](https://github.com/Qovery/engine/stargazers)  
   Core open-source engine of Qovery turning any AWS, GCP, or Scaleway Kubernetes cluster into a self-service PaaS environment.
-- **[Radius (`radius-project/radius`)](https://github.com/radius-project/radius)** [![GitHub stars](https://img.shields.io/github/stars/radius-project/radius?style=social&color=white)](https://github.com/radius-project/radius/stargazers)  
+- **[Radius (`radius-project/radius`)](https://github.com/radius-project/radius)** [![GitHub_Stars](https://img.shields.io/github/stars/radius-project/radius?style=social&color=white)](https://github.com/radius-project/radius/stargazers)  
   Open-source cloud-native application platform from Microsoft enabling developers and platform teams to collaborate on microservice definitions, connections, and cloud recipes.
-- **[Porter (`getporter/porter`)](https://github.com/getporter/porter)** [![GitHub stars](https://img.shields.io/github/stars/getporter/porter?style=social&color=white)](https://github.com/getporter/porter/stargazers)  
+- **[Porter (`getporter/porter`)](https://github.com/getporter/porter)** [![GitHub_Stars](https://img.shields.io/github/stars/getporter/porter?style=social&color=white)](https://github.com/getporter/porter/stargazers)  
   CNCF open-source Cloud Native Application Bundle (CNAB) tool for packaging, installing, and managing composite application artifacts across cloud platforms.
-- **[Kratix (`syntasso/kratix`)](https://github.com/syntasso/kratix)** [![GitHub stars](https://img.shields.io/github/stars/syntasso/kratix?style=social&color=white)](https://github.com/syntasso/kratix/stargazers)  
+- **[Kratix (`syntasso/kratix`)](https://github.com/syntasso/kratix)** [![GitHub_Stars](https://img.shields.io/github/stars/syntasso/kratix?style=social&color=white)](https://github.com/syntasso/kratix/stargazers)  
   Open-source platform engineering framework enabling teams to compose, curate, and deliver as-a-Service APIs ("Promises") across multi-cluster Kubernetes environments.
 
 ---
 
 ## 🔄 Microservice Runtimes & GitOps Delivery
 
-Core runtimes, service mesh backbones, and continuous delivery pipelines, sorted descending by GitHub star count.
+Core runtimes, service mesh backbones, and continuous delivery pipelines, sorted descending by GitHub Stars_Count.
 
-- **[Istio (`istio/istio`)](https://github.com/istio/istio)** [![GitHub stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers)  
+- **[Istio (`istio/istio`)](https://github.com/istio/istio)** [![GitHub_Stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers)  
   Industry-standard CNCF graduated open-source service mesh providing zero-trust mTLS, dynamic traffic management, policy enforcement, and telemetry graphs across microservices architectures.
-- **[Dapr (`dapr/dapr`)](https://github.com/dapr/dapr)** [![GitHub stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)  
+- **[Dapr (`dapr/dapr`)](https://github.com/dapr/dapr)** [![GitHub_Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)  
   Distributed Application Runtime providing portable, event-driven microservice building blocks—service-to-service invocation, pub/sub, state store, and distributed locking—via sidecar APIs.
-- **[Argo CD (`argoproj/argo-cd`)](https://github.com/argoproj/argo-cd)** [![GitHub stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers)  
+- **[Argo CD (`argoproj/argo-cd`)](https://github.com/argoproj/argo-cd)** [![GitHub_Stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers)  
   Declarative, GitOps continuous delivery engine for Kubernetes widely embedded inside Internal Developer Portals for live microservice synchronization and self-service rollouts.
-- **[KubeSphere (`kubesphere/kubesphere`)](https://github.com/kubesphere/kubesphere)** [![GitHub stars](https://img.shields.io/github/stars/kubesphere/kubesphere?style=social&color=white)](https://github.com/kubesphere/kubesphere/stargazers)  
+- **[KubeSphere (`kubesphere/kubesphere`)](https://github.com/kubesphere/kubesphere)** [![GitHub_Stars](https://img.shields.io/github/stars/kubesphere/kubesphere?style=social&color=white)](https://github.com/kubesphere/kubesphere/stargazers)  
   Distributed open-source container management platform featuring a multi-tenant developer console, automated CI/CD pipelines, and integrated service mesh observability.
-- **[Linkerd (`linkerd/linkerd2`)](https://github.com/linkerd/linkerd2)** [![GitHub stars](https://img.shields.io/github/stars/linkerd/linkerd2?style=social&color=white)](https://github.com/linkerd/linkerd2/stargazers)  
+- **[Linkerd (`linkerd/linkerd2`)](https://github.com/linkerd/linkerd2)** [![GitHub_Stars](https://img.shields.io/github/stars/linkerd/linkerd2?style=social&color=white)](https://github.com/linkerd/linkerd2/stargazers)  
   Ultralight, security-focused CNCF graduated service mesh engineered for Kubernetes, offering zero-config mTLS, golden metrics, and traffic routing.
-- **[Flux CD (`fluxcd/flux2`)](https://github.com/fluxcd/flux2)** [![GitHub stars](https://img.shields.io/github/stars/fluxcd/flux2?style=social&color=white)](https://github.com/fluxcd/flux2/stargazers)  
+- **[Flux CD (`fluxcd/flux2`)](https://github.com/fluxcd/flux2)** [![GitHub_Stars](https://img.shields.io/github/stars/fluxcd/flux2?style=social&color=white)](https://github.com/fluxcd/flux2/stargazers)  
   Open and extensible continuous delivery solution for Kubernetes powered by the GitOps Toolkit, widely utilized by platform engineering teams to maintain desired cluster state.
 
 ---
@@ -165,7 +165,7 @@ Contributions from platform engineers, SREs, and open-source maintainers are wel
 
 1. 🍴 **Fork** this repository.
 2. 📝 Add your project or platform to the appropriate section in `README.md`:
-   - Follow the established formatting (include links, GitHub repo name, and social star badge if open-source).
+   - Follow the established formatting (include links, GitHub repo name, and social Stars_Badge if open-source).
    - If adding a SaaS product, include specific starting tier pricing and specific free tier / trial limits in the SaaS table.
 3. 🔍 Verify formatting, links, and sorting order.
 4. 🚀 **Submit a Pull Request** with a descriptive summary of your changes.
